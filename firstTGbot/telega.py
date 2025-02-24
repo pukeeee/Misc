@@ -23,7 +23,7 @@ def home_page(chat_id):
 
 @bot.message_handler(commands=["start"])
 def start_func(message):
-    file = open("/Users/admin/Documents/Python/pet/firstTGbot/chery.jpeg", "rb")
+    file = open("/chery.jpeg", "rb")
     bot.send_photo(message.chat.id, file)
     bot.send_message(message.chat.id, "<b>Chinaaaaaazes</b>", parse_mode = "HTML")
     bot.send_message(message.chat.id, f"Privet {message.from_user.first_name}")
