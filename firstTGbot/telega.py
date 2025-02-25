@@ -3,6 +3,7 @@ import requests
 from telebot import types
 from random import choice
 
+
 bot = telebot.TeleBot("token")
 weatherAPI = "token"
 
