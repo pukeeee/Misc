@@ -7,6 +7,7 @@ from random import choice
 bot = telebot.TeleBot("token")
 weatherAPI = "token"
 
+
 user_states = {}
 STATE_HOME = "home"
 STATE_WEATHER = "weather"
