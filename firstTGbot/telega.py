@@ -23,6 +23,7 @@ def home_page(chat_id):
     bot.send_message(chat_id, "Click button below", reply_markup = keyboard)
     user_states[chat_id] = STATE_HOME
 
+
 @bot.message_handler(commands=["start"])
 def start_func(message):
     file = open("/chery.jpeg", "rb")
